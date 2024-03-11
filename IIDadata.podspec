@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
                          branch: 'release',
                          tag: s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '14.0'
 
   s.source_files = 'IIDadata/Sources/**/*.swift'
 
